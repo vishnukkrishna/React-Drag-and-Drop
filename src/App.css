@@ -6,4 +6,21 @@
   align-items: center;
   gap: 50px;
   margin-top: 10px;
+  animation: fadeInApp 0.8s ease;
+}
+
+@keyframes fadeInApp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2563eb;
 }
